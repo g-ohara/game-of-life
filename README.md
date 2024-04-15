@@ -19,7 +19,7 @@ You need [Git](https://git-scm.com/) and [Docker](https://www.docker.com/) insta
    docker compose exec haskell ghc simulator.hs
    ```
 1. Then you will get the executable ```simulator``` file.
-### Solve Problem
+### Simulation
 1. Run the app:
    ```sh
    ./simulator
