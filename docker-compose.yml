@@ -1,0 +1,10 @@
+services:
+  haskell:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: game-of-life
+    working_dir: /root/workspace
+    volumes:
+      - ./:/root/workspace
+    tty: true
